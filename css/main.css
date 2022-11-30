@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    
+}
+
+.logo {
+    float:left;
+    position: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+li {
+    float: right;
+    display: inline;
+
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+  
+  }
+  
+a {
+    display: block;
+    padding: 20px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+  }
+
+.slideSection1 {
+    margin:0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(/images/Rectangle1.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+.nav-container {
+    background: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 24px;
+    
+
+}
+
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+
+}
+
+.ourMission {
+    position: relative;
+    top: 665px;
+    
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+
+.takeYouToTheTop {
+    
+    position:relative;
+    top: 655px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 93px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.elevatorButton {
+    position:relative; 
+    top: 675px;
+
+}
+
+.logo {
+    position: absolute;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: -10px;
+    
+}
+
+/* ---------------------------- section 2 ------------------------------ */
+
+.slideSection2 {
+    /* Rectangle 2 */
+    
+    width: 100%;
+    height: 711px;
+    left: 0px;
+    top: 960px;
+
+    /* Sublight Engines/Gray */
+
+    background: #383838;
+
+
+}
+
+.section2 {
+    position:relative;
+    top: 100px;
+
+}
+
+section.slideSection2 div.oneStopFor {
+    top: 300px;
+    text-align:center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.oneStepCloser {
+    text-align:center;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.container-1 {
+    position:relative;
+    top: 155px;
+    display:flex;
+    text-align: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.container-1 div{
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.box-1 {
+    flex:0.8;
+    order:1;
+
+}
+
+.box-2 {
+    flex:0.8;
+    order:2;
+    
+}
+
+.box-3 {
+    flex:0.8;
+    order:3;
+    
+}
+
+/* ---------------------------- section 3 ------------------------------ */
+
+.slideSection3 {
+    width: 100%;
+    
+    
+}
+
+
+.row {
+    display:flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+}
+
+.row div {
+    padding: 100px;
+    
+
+}
+
+.column-1 {
+    flex:0.8;
+    order:1;
+
+    position:relative;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+    
+}
+
+.column-2 {
+    flex:0.8;
+    order:2;
+
+}
+
+
+.column-1 h4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 0;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+.column-1 h1 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+
+.column-1 p {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    width: 600px;
+    /* or 110% */
+
+    
+    color: #000000;
+
+
+}
+
+.column-2 img {
+    width: 615px;
+    height: 411px;
+
+}
+

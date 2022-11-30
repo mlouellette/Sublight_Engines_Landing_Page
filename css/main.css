@@ -7,7 +7,12 @@ body {
 
 .logo {
     float:left;
-    position: auto;
+    position: absolute;
+    left: 50px;
+}
+
+.logo img {
+    margin-left: -150px;
 
 }
 

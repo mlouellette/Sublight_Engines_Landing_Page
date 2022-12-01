@@ -7,16 +7,8 @@ body {
     
 }
 
-.logo {
-    float:left;
-    position: absolute;
-    left: 50px;
-}
 
-.logo img {
-    margin-left: -150px;
 
-}
 
 ul {
     list-style-type: none;
@@ -131,14 +123,6 @@ a {
 
 }
 
-.logo {
-    position: relative;
-    width: 465px;
-    height: 86px;
-    left: 20px;
-    top: -10px;
-    
-}
 
 /* ---------------------------- section 2 ------------------------------ */
 
@@ -244,6 +228,7 @@ section.slideSection2 div.oneStopFor {
 .row {
     display:flex;
     width: 100%;
+    
     margin-left: auto;
     margin-right: auto;
     margin-top:auto;
@@ -464,7 +449,8 @@ section.slideSection4 div.needMoreFor {
 }
 
 .section5 {
-    position:relative;
+    position:absolute;
+    width: 100%;
     top: 100px;
     margin-left: auto;
     margin-right:auto;
@@ -513,10 +499,11 @@ section.slideSection5 div.feelFreeTo {
 }
 
 .container5 {
-    position:relative;
-    left: 496px;
-    top:150px;
-    width:500px;
+    
+    position:absolute;
+    width: 100%;
+    top: 100px;
+    
     
 }
 
@@ -536,782 +523,7 @@ input::placeholder {
 }
 
 .longInput {
-    margin: 8px 0;
-    border: 1px solid #A0A0A0;
-    width: 450px;
-    height: 12px;
-    padding:25px;
-
-}
-
-.shortInput {
-    margin: 8px 0;
     
-    border: 1px solid #A0A0A0;
-    height:12px;
-    padding:25px;
-    width: 185px;
-
-
-}
-
-.dropdown {
-    margin: 8px 0;
-    border: 1px solid #A0A0A0;
-    height: 65px;
-    padding: 20px;
-    width: 235px;
-
-
-}
-
-.inputOne {
-    flex:0.8;
-    order:1;
-    
-
-}
-
-.inputTwo {
-    flex:0.8;
-    order:2;
-    margin-left: 30px;
-    
-}
-
-.container55 {
-    display:flex;
-
-
-}
-
-select {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-
-
-    /* Sublight Engines/Gray */
-
-    color: #383838;
-
-}
-
-.formButton {
-    border: 3px solid #292929;
-    
-    position: absolute;
-    width: 503px;
-    height: 55px;
-    background: transparent;
-    top: 375px;
-    margin-left:auto;
-    margin-right:auto;
-    box-sizing: border-box;
-    
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height, or 122% */
-
-    text-align: center;
-    text-transform: uppercase;
-
-    /* Sublight Engines/Black */
-
-    color: #292929;
-
-}
-
-.formButton:hover {
-    color: #FF7630;
-    border: 3px solid #FF7630;
-    cursor:pointer;
-
-}
-
-.formButton:active {
-    color: steelblue;
-    border: 3px solid steelblue;
-    cursor:pointer;
-
-}
-
-/* ---------------------------- section 6 ------------------------------ */
-
-.slideSection6 {
-    position: absolute;
-    width: 100%;
-    height: 254px;
-    left: 0px;
-    top: 4050px;
-
-    /* Sublight Engines/Black */
-
-    background: #292929;
-    
-}
-
-.slideSection6 h1 {
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 53px;
-    /* identical to box height */
-
-
-    /* Sublight Engines/Orange */
-
-    color: #FF7630;
-
-}
-
-.row6 {
-    display:flex;
-    width: 100%;
-  
-    
-}
-
-.row6 div {
-    padding: 57px;
-    
-
-}
-
-.column-61 {
-    flex:1;
-    order:1;
-    margin-left:175px;
-    
-}
-
-.column-62 {
-    flex:1;
-    order:2;
-    margin-left:-100px;
-
-}
-
-/* ---------------------------- FOOTER ------------------------------ */
-
-.footer {
-    position: absolute;
-    width: 100%;
-    height: 853px;
-    left: 0px;
-
-    /* Sublight Engines/Orange */
-    
-    top: 3800px;
-    
-}
-
-.rights {
-    position:absolute;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height */
-
-    text-align: center;
-
-    /* Sublight Engines/Black */
-
-    color: #292929;
-    bottom:25px;
-    left:640px;
-
-}
-
-.addressLeft {
-    
-    position:absolute;
-    left: 100px;
-    top: 600px;
-
-}
-
-.addressLeftFont {
-    margin: 6px 0;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    text-transform: uppercase;
-
-}
-
-.addressRight {
-    position:absolute;
-    right: 100px;
-    top: 600px;
-    text-align: right;
-}
-
-.addressRightFont {
-    margin: 6px 0;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    text-transform: uppercase;
-
-}
-
-.footer label {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-
-    text-transform: uppercase;
-
-    /* Sublight Engines/Orange */
-
-    color: #FF7630;
-
-}body {
-    margin: 0;
-    font-family: 'Roboto';
-    font-style: normal;
-    
-}
-
-.logo {
-    float:left;
-    position: absolute;
-    left: 50px;
-}
-
-.logo img {
-    margin-left: -150px;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    float:right;
-    
-
-  }
-
-li {
-    justify-content: flex-end;
-    display: flex;
-    
-
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 35px;
-    text-decoration: none;
-  
-  }
-  
-a {
-    display: block;
-    padding: 20px;
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 40px;
-    /* identical to box height */
-    
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-  }
-
-.slideSection1 {
-    width: 100%;
-    position: absolute;
-    height: 960px;
-    left: 0px;
-    top: 0px;
-    background-image: url(/images/Rectangle1.png); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-
-}
-
-.nav-container {
-    background: rgba(0, 0, 0, 0.69);
-    position: absolute;
-    width: 100%;
-    height: 68px;
-    left: 0px;
-    top: 24px;
-    
-
-}
-
-.wrapper {
-   max-width: 1200px;
-   margin: 0 auto;
-
-}
-
-.ourMission {
-    position: relative;
-    top: 665px;
-    
-    text-align: center;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 60px;
-    /* identical to box height */
-
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-}
-
-.takeYouToTheTop {
-    
-    position:relative;
-    top: 655px;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 93px;
-    /* identical to box height */
-    
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-    
-}
-
-.elevatorButton {
-    position:relative; 
-    top: 675px;
-
-}
-
-.logo {
-    position: relative;
-    width: 465px;
-    height: 86px;
-    left: 20px;
-    top: -10px;
-    
-}
-
-/* ---------------------------- section 2 ------------------------------ */
-
-.slideSection2 {
-    /* Rectangle 2 */
-    position:absolute;
-    width: 100%;
-    height: 711px;
-    left: 0px;
-    top: 960px;
-
-    /* Sublight Engines/Gray */
-
-    background: #383838;
-
-}
-
-.section2 {
-    position:relative;
-    top: 100px;
-
-}
-
-section.slideSection2 div.oneStopFor {
-    top: 300px;
-    text-align:center;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-}
-
-.oneStepCloser {
-    text-align:center;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 53px;
-    /* identical to box height */
-
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-}
-
-.container-1 {
-    position:relative;
-    top: 155px;
-    display:flex;
-    text-align: center;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-}
-
-.container-1 div{
-    padding: 15px;
-    margin: 10px;
-
-}
-
-.box-1 {
-    flex:0.8;
-    order:1;
-
-}
-
-.box-2 {
-    flex:0.8;
-    order:2;
-    
-}
-
-.box-3 {
-    flex:0.8;
-    order:3;
-    
-}
-
-/* ---------------------------- section 3 ------------------------------ */
-
-.slideSection3 {
-    width: 100%;
-    position: absolute;
-    top: 1700px;
-    
-    
-}
-
-.row {
-    display:flex;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:auto;
-    margin-bottom:auto;
-    
-}
-
-.row div {
-    padding: 50px;
-    
-
-}
-
-.column-1 {
-    flex:1;
-    order:1;
-
-    position:relative;
-    margin-top:auto;
-    margin-bottom:auto;
-    
-}
-
-.column-2 {
-    flex:1;
-    order:2;
-
-}
-
-.column-1 h4 {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-transform: uppercase;
-    margin: 0;
-
-    /* Sublight Engines/Black */
-
-    color: #292929;
-}
-
-.column-1 h1 {
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 42px;
-    text-transform: uppercase;
-    margin: 0;
-
-    /* Sublight Engines/Black */
-
-    color: #292929;
-}
-
-.column-1 p {
-    
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 22px;
-    width: 600px;
-    /* or 110% */
-
-    
-    color: #000000;
-
-
-}
-
-.column-2 img {
-    width: 615px;
-    height: 411px;
-
-}
-
-/* ---------------------------- section 4 ------------------------------ */
-
-.slideSection4 {
-    position: absolute;
-    width: 100%;
-    height: 853px;
-    left: 0px;
-    
-
-    /* Sublight Engines/Orange */
-
-    background: #FF7630;
-    
-    top: 2265px;
-    
-    
-}
-
-.section4 {
-    position:relative;
-    top: 100px;
-    margin-left: auto;
-    margin-right:auto;
-
-}
-
-section.slideSection4 div.needMoreFor {
-    top: 300px;
-    text-align:center;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-}
-
-.slideSection4 h1 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #383838;
-
-}
-
-.slideSection4 p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 110%;
-    /* or 110% */
-    text-align: center;
-    /* Sublight Engines/Gray */
-    color: #383838;
-
-}
-
-.container-4 {
-    position:relative;
-    top: 155px;
-    display:flex;
-    text-align: center;
-    width: 75%;
-    left:55px;
-    color: #FFFFFF;
-
-}
-
-.container-4 div{
-    margin: 10px;
-    filter: drop-shadow(0px 8px 11px rgba(0, 0, 0, 0.25));
-    background: white;
-    
-
-}
-
-.box-41 {
-    flex:1;
-    order:1;
-
-}
-
-.box-42 {
-    flex:1;
-    order:2;
-    
-}
-
-.box-43 {
-    flex:1;
-    order:3;
-    
-}
-
-.box-44 {
-    flex:1;
-    order:4;
-
-}
-
-.box-45 {
-    flex:1;
-    order:5;
-    
-}
-
-.downloadButton {
-    position: absolute;
-    width: 294px;
-    height: 50px;
-    left: 592px;
-    top: 715px;
-    margin-left:auto;
-    margin-right:auto;
-    box-sizing: border-box;
-    border: 3px solid #FFFFFF;
-    background-color: transparent;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 22px;
-    /* identical to box height, or 122% */
-
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
-}
-
-/* ---------------------------- section 5 ------------------------------ */
-
-.slideSection5 {
-    position: absolute;
-    width: 100%;
-    height: 853px;
-    left: 0px;
-
-    /* Sublight Engines/Orange */
-    
-    top: 3150px;
-    
-}
-
-.section5 {
-    position:relative;
-    top: 100px;
-    margin-left: auto;
-    margin-right:auto;
-
-}
-
-section.slideSection5 div.stayInTouch {
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-    text-transform: uppercase;
-
-    /* Sublight Engines/Black */
-
-    color: #292929;
-
-}
-
-section.slideSection5 div.feelFreeTo {
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 53px;
-    text-align: center;
-    text-transform: uppercase;
-
-    /* Sublight Engines/Orange */
-
-    color: #FF7630;
-
-}
-
-.slideSection5 label {
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height */
-    
-
-    text-transform: uppercase;
-
-    /* Sublight Engines/Black */
-
-    color: #292929;
-
-}
-
-.container5 {
-    position:relative;
-    left: 496px;
-    top:150px;
-    width:500px;
-    
-}
-
-input::placeholder {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-    /* identical to box height */
-
-
-    /* Sublight Engines/Light Gray */
-
-    color: #A0A0A0;
-
-}
-
-.longInput {
     margin: 8px 0;
     border: 1px solid #A0A0A0;
     width: 450px;
@@ -1554,3 +766,763 @@ select {
     color: #FF7630;
 
 }
+
+.slideSection1 {
+    width: 100%;
+    position: absolute;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    background-image: url(/images/Rectangle1.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+
+}
+
+.nav-container {
+    background: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    width: 100%;
+    height: 68px;
+    left: 0px;
+    top: 24px;
+    
+
+}
+
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+
+}
+
+.ourMission {
+    position: relative;
+    top: 665px;
+    
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.takeYouToTheTop {
+    
+    position:relative;
+    top: 655px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 93px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+
+.elevatorButton {
+    position:relative; 
+    top: 675px;
+
+}
+
+.logo {
+    position: relative;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: -10px;
+    
+}
+
+/* ---------------------------- section 2 ------------------------------ */
+
+.slideSection2 {
+    /* Rectangle 2 */
+    position:absolute;
+    width: 100%;
+    height: 711px;
+    left: 0px;
+    top: 960px;
+
+    /* Sublight Engines/Gray */
+
+    background: #383838;
+
+}
+
+.section2 {
+    position:relative;
+    top: 100px;
+
+}
+
+section.slideSection2 div.oneStopFor {
+    top: 300px;
+    text-align:center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.oneStepCloser {
+    text-align:center;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.container-1 {
+    position:relative;
+    top: 155px;
+    display:flex;
+    text-align: center;
+    width: 1200px;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.container-1 div{
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.box-1 {
+    flex:0.8;
+    order:1;
+
+}
+
+.box-2 {
+    flex:0.8;
+    order:2;
+    
+}
+
+.box-3 {
+    flex:0.8;
+    order:3;
+    
+}
+
+/* ---------------------------- section 3 ------------------------------ */
+
+.slideSection3 {
+    width: 100%;
+    position: absolute;
+    top: 1700px;
+    
+    
+}
+
+.row {
+    position:relative;
+    align-items:center;
+    top:10px;
+    display:flex;
+    justify-content: center;
+    width: 1200px;
+    
+    
+}
+
+.row div {
+    padding: 50px;
+    
+
+}
+
+.column-1 {
+    flex:1;
+    order:1;
+
+    position:relative;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+}
+
+.column-2 {
+    flex:1;
+    order:2;
+
+}
+
+.column-1 h4 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 0;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+.column-1 h1 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+.column-1 p {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    width: 600px;
+    /* or 110% */
+
+    
+    color: #000000;
+
+
+}
+
+.column-2 img {
+    width: 615px;
+    height: 411px;
+
+}
+
+/* ---------------------------- section 4 ------------------------------ */
+
+.slideSection4 {
+    position: absolute;
+    width: 100%;
+    height: 853px;
+    
+    
+
+    /* Sublight Engines/Orange */
+
+    background: #FF7630;
+    
+    top: 2265px;
+    
+    
+}
+
+.section4 {
+    position:relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+section.slideSection4 div.needMoreFor {
+    top: 300px;
+    text-align:center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.slideSection4 h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #383838;
+
+}
+
+.slideSection4 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    /* or 110% */
+    text-align: center;
+    /* Sublight Engines/Gray */
+    color: #383838;
+
+}
+
+.container-4 {
+    position:absolute;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    width: 1350px;
+    color: #FFFFFF;
+    left: 14.5%;
+    top:40%;
+}
+
+.container-4 div{
+    filter: drop-shadow(0px 8px 11px rgba(0, 0, 0, 0.25));
+    background: white;
+    
+
+}
+
+
+.box-41 {
+    flex:1;
+    order:1;
+
+}
+
+.box-42 {
+    flex:1;
+    order:2;
+    
+}
+
+.box-43 {
+    flex:1;
+    order:3;
+    
+}
+
+.box-44 {
+    flex:1;
+    order:4;
+
+}
+
+.box-45 {
+    flex:1;
+    order:5;
+    
+}
+
+.downloadButton {
+    position: absolute;
+    width: 294px;
+    height: 50px;
+    left: 42.5%;
+    top: 715px;
+    margin-left:auto;
+    margin-right:auto;
+    box-sizing: border-box;
+    border: 3px solid #FFFFFF;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+/* ---------------------------- section 5 ------------------------------ */
+
+.slideSection5 {
+    position: absolute;
+    width: 100%;
+    height: 853px;
+    left: 0px;
+
+    /* Sublight Engines/Orange */
+    
+    top: 3150px;
+    
+}
+
+.section5 {
+    position:relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+section.slideSection5 div.stayInTouch {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+
+}
+
+section.slideSection5 div.feelFreeTo {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #FF7630;
+
+}
+
+.slideSection5 label {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+
+}
+
+.container5 {
+    position:relative;
+    left: 37%;
+    top:150px;
+    width:500px;
+    
+}
+
+input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Sublight Engines/Light Gray */
+
+    color: #A0A0A0;
+
+}
+
+.longInput {
+    margin: 8px 0;
+    border: 1px solid #A0A0A0;
+    width: 450px;
+    height: 12px;
+    padding:25px;
+
+}
+
+.shortInput {
+    margin: 8px 0;
+    
+    border: 1px solid #A0A0A0;
+    height:12px;
+    padding:25px;
+    width: 185px;
+
+
+}
+
+.dropdown {
+    margin: 8px 0;
+    border: 1px solid #A0A0A0;
+    height: 65px;
+    padding: 20px;
+    width: 235px;
+
+
+}
+
+.inputOne {
+    flex:0.8;
+    order:1;
+    
+
+}
+
+.inputTwo {
+    flex:0.8;
+    order:2;
+    margin-left: 30px;
+    
+}
+
+.container55 {
+    display:flex;
+
+
+}
+
+select {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Sublight Engines/Gray */
+
+    color: #383838;
+
+}
+
+.formButton {
+    border: 3px solid #292929;
+    
+    position: absolute;
+    width: 503px;
+    height: 55px;
+    background: transparent;
+    top: 375px;
+    margin-left:auto;
+    margin-right:auto;
+    box-sizing: border-box;
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+
+}
+
+.formButton:hover {
+    color: #FF7630;
+    border: 3px solid #FF7630;
+    cursor:pointer;
+
+}
+
+.formButton:active {
+    color: steelblue;
+    border: 3px solid steelblue;
+    cursor:pointer;
+
+}
+
+/* ---------------------------- section 6 ------------------------------ */
+
+.slideSection6 {
+    position: absolute;
+    width: 100%;
+    height: 254px;
+    
+    top: 4050px;
+    /* Sublight Engines/Black */
+
+    background: #292929;
+    
+}
+
+.slideSection6 h1 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    /* Sublight Engines/Orange */
+
+    color: #FF7630;
+
+}
+
+.row6 {
+    postion:absolute;
+    display:flex;
+    width: 120%;
+    justify-content: center;
+    
+  
+    
+}
+
+.row6 div {
+    
+    
+
+}
+
+.column-61 {
+    flex:1;
+    order:1;
+    margin-left:17%;
+    
+}
+
+.column-62 {
+    flex:1;
+    order:2;
+    margin-right:25%;
+
+}
+
+/* ---------------------------- FOOTER ------------------------------ */
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 853px;
+    left: 0px;
+
+    /* Sublight Engines/Orange */
+    
+    top: 3800px;
+    
+}
+
+.rights {
+    position:absolute;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+    bottom:23px;
+    left:45%;
+
+}
+
+.addressLeft {
+    
+    position:absolute;
+    left: 100px;
+    top: 600px;
+
+}
+
+.addressLeftFont {
+    margin: 6px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+.addressRight {
+    position:absolute;
+    right: 100px;
+    top: 600px;
+    text-align: right;
+}
+
+.addressRightFont {
+    margin: 6px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+.footer label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #FF7630;
+
+}
+
+.logo {
+    float:left;
+    position: absolute;
+    left: 1%;
+
+}
+
+
+
+/* portable size  */
+@media all and (min-width:500px) and (max-width:1150px) {
+
+    .logo {
+        float:left;
+        position: absolute;
+        left: 10px;
+    }
+    
+    
+
+
+}
+
+/* monitor size */
+@media all and (min-width:1150px) and (max-width:1700px) {
+
+    .logo {
+        float:left;
+        position: absolute;
+        left: 100px;
+    }
+    
+
+
+
+    }
+
+
+
+

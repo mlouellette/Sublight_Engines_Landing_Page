@@ -299,10 +299,6 @@ section.slideSection2 div.oneStopFor {
 
 }
 
-
-
-
-
 /* ---------------------------- section 4 ------------------------------ */
 
 .slideSection4 {
@@ -725,7 +721,7 @@ select {
 
     color: #292929;
     bottom:25px;
-    left:640px;
+    left:46%;;
 
 }
 
@@ -789,4 +785,75 @@ select {
     left: 1%;
 
 }
+
+/* wider monitors */
+@media all and (min-width:1480px) and (max-width:1920px) {
+    
+    .container55 {
+        
+        display:flex;
+        margin: 0 8;
+        width:40%;
+    
+    }
+
+    .container5 {
+        position:relative;
+        top:363px;
+        width: 70%;
+        margin-left:37.5%;
+        margin-right:43.5%;
+        
+    }
+
+    .row div {
+        left:15%;
+    
+    }
+    
+    .column-1 {
+        margin-right:7%;
+        
+    }
+
+    .container-4 {
+        
+        width: 72%;
+        left:14%;
+        right:12.5%;
+        
+        color: #FFFFFF;
+    
+    }
+
+    .downloadButton {
+        top: 687px;
+        left: 42.5%;
+        right: 40%;
+        
+    
+    }
+
+    .column-61 {
+        flex:1;
+        order:1;
+        margin-left:450px;
+        
+    }
+
+    .column-62 {
+        flex:1;
+        order:2;
+        margin-left:-150px;
+    
+    }
+
+    .rights {
+        
+        left:46%;
+    
+    }
+
+}
+
 

@@ -439,7 +439,8 @@ section.slideSection4 div.needMoreFor {
 .downloadButton:hover{
     color: #292929;
     border: 3px solid #292929;
-    cursor: pointer;
+    cursor:pointer;
+
 }
 
 /* ---------------------------- section 5 ------------------------------ */
@@ -718,7 +719,7 @@ select {
 
     color: #292929;
     bottom:25px;
-    left:43%;;
+    left:43%;
 
 }
 

@@ -6,7 +6,7 @@ This is a web page made used with pure HTML and CSS
 
 - The navbar is leading you to the different sections of the page
 - The download catalog has as a temporary alert : "COMING SOON!"
-- You can enter the proper credentials but for now the submit buttom as also a temporary alert : Form submission is not yet implemented!
+- You can enter the proper credentials but for now the submit buttom as also a temporary alert : "Form submission is not yet implemented!"
 
 ## Links 
 

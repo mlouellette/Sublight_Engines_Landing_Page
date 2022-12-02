@@ -573,12 +573,14 @@ input::placeholder {
 .inputOne {
     flex:0.8;
     order:1;
+    z-index: 99;
 
 }
 
 .inputTwo {
     flex:0.8;
     order:2;
+    z-index: 99;
     
 }
 

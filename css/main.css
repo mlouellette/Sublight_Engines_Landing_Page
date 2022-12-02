@@ -10,18 +10,14 @@ body {
     overflow-x: hidden;
 }
 
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     float:right;
-    
 
-  }
+}
 
 li {
     justify-content: flex-end;
@@ -37,7 +33,7 @@ li a {
     padding: 14px 35px;
     text-decoration: none;
   
-  }
+}
   
 a {
     display: block;
@@ -52,9 +48,19 @@ a {
     text-transform: uppercase;
 
     color: #FFFFFF;
-    
 
-  }
+}
+
+a:hover{
+    color:#FF7630;
+
+}
+
+li:hover {
+    background: #383838;
+    text-shadow: 2px 2px black;
+
+}
 
 .slideSection1 {
     width: 100%;
@@ -77,7 +83,6 @@ a {
     height: 68px;
     left: 0px;
     top: 24px;
-    
 
 }
 
@@ -125,7 +130,6 @@ a {
     top: 675px;
 
 }
-
 
 /* ---------------------------- section 2 ------------------------------ */
 
@@ -225,7 +229,6 @@ section.slideSection2 div.oneStopFor {
     position: absolute;
     top: 1760px;
     
-    
 }
 
 .row {
@@ -233,14 +236,11 @@ section.slideSection2 div.oneStopFor {
     width: 100%;
     align-items: center;
     
-    
 }
 
 .row div {
     left:5%;
     right:5%;
-    
-    
 
 }
 
@@ -436,6 +436,12 @@ section.slideSection4 div.needMoreFor {
 
 }
 
+.downloadButton:hover{
+    color: #292929;
+    border: 3px solid #292929;
+
+}
+
 /* ---------------------------- section 5 ------------------------------ */
 
 .slideSection5 {
@@ -554,22 +560,18 @@ input::placeholder {
     padding: 20px;
     width: 236px;
 
-
 }
 
 .container55 {
     display:flex;
     margin: 0 8;
     width:51%;
-    
-
 
 }
 
 .inputOne {
     flex:0.8;
     order:1;
-    
 
 }
 
@@ -577,10 +579,7 @@ input::placeholder {
     flex:0.8;
     order:2;
     
-    
 }
-
-
 
 select {
     font-family: 'Roboto';
@@ -670,13 +669,11 @@ select {
 .row6 {
     display:flex;
     width: 100%;
-  
     
 }
 
 .row6 div {
     padding: 57px;
-    
 
 }
 
@@ -787,7 +784,7 @@ select {
 }
 
 /* wider monitors */
-@media all and (min-width:1480px) and (max-width:1920px) {
+@media all and (min-width:1520px) and (max-width:2256px) {
     
     .container55 {
         
@@ -830,6 +827,7 @@ select {
         top: 687px;
         left: 42.5%;
         right: 40%;
+        cursor:pointer;
         
     
     }

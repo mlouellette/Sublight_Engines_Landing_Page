@@ -1,6 +1,6 @@
 # Sublight_Engines_Landing_Page
 
-This is a static web page made used with pure HTML and CSS
+This is a web page made used with pure HTML and CSS
 
 ## Interactions
 

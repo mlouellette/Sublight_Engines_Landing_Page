@@ -8,6 +8,10 @@ This is a web page made used with pure HTML and CSS
 - The download catalog has as a temporary alert : "COMING SOON!"
 - You can enter the proper credentials but for now the submit buttom as also a temporary alert : "Form submission is not yet implemented!"
 
+## Mobile Version
+
+- This website has been updated for mobile using the dev tools <strong>IPHONE 12</strong> template.
+
 ## Links 
 
 Website is deployed on the following link :

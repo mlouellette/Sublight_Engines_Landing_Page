@@ -7,53 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sublight Engines - Elevator Cab Controls</title>
     <meta name="description" content="">
-    
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css\main.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script defer src="/js/main.js"></script>
 
 </head>
 <body>    
     <!-- MAIN CONTENT -->
 <section class="slideSection1">
 
+
     <!-- NAV BAR  -->
+<a href="#" class="logo"><img src="/images/logo_sublight.svg"></a>  
+
 <header>
-    <div class="nav-container">
+    
+    <div class="container"> 
+        
+        <nav class="navbar">
+            <a href="#" class="nav-branding"></a> 
+           <ul class="nav-menu">
+              <li class="nav-item">
+                 <a href="#slideSection2" class="nav-link">Our Services</a>
+              </li>
+              <li class="nav-item">
+                 <a href="#slideSection3" class="nav-link">Our Products</a>
+              </li>
+              <li class="nav-item">
+                 <a href="#slideSection4" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#slideSection5" class="nav-link">Contact Us</a>
+             </li>
 
-        <nav class="wrapper">
-            
-            <div class="logo" href="#top"><!-- Logo -->
-               <img src="images\logo_sublight.svg">
-            </div>  
-            
-            <ul id="" class="navBar">
-                
-                <li class="ourServices"><!-- OUR SERVICES -->
-                    <a class="ourServices" href="#slideSection2">
-                        OUR SERVICES
-                    </a>
-                </li>
-                <li class="ourProducts"><!-- OUR PRODUCTS -->
-                    <a href="#slideSection3">
-                        OUR PRODUCTS
-                    </a>
-                </li>
-                <li class="aboutUs"><!-- ABOUT US -->
-                    <a href="#slideSection4">
-                        ABOUT US
-                    </a>
-                </li>
-                <li class="contactUs"><!-- CONTACT US -->
-                    <a href="#slideSection5">
-                        CONTACT US
-                    </a>
-                </li>
-              
-            </ul>
-
+           </ul>
+           <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+           </div>
         </nav>
-    </div>
+     </div>
 </header>
 
   <div class="bottom-wrapper">
@@ -73,7 +68,7 @@
 
 <!-- SECOND SLIDER ------------------------ -->
 
-<section id="slideSection2" class="slideSection2">
+<section id="slideSection2" class="slideSection2 wrapper">
 
     <div class="section2">
         <div class="oneStopFor">one-stop for your elevator needs</div>
@@ -181,9 +176,11 @@
         
 
     </div>
-
-    <button onclick="comingSoon()" class="downloadButton" type="button">Download our catalog</button>
-
+    <div class="downloadBackground"></div>
+    </div>
+    
+      <button onclick="comingSoon()" class="downloadButton" type="button">Download our catalog</button>
+    
 </section>
 
 <!-- FIFTH SLIDER ------------------------ -->
@@ -198,18 +195,18 @@
         
     </div>
 
-    <form class="container5">
+    <form id="myForm" class="container5" action="/">
       <div class="nameInput">
         <div class="">
             <label>NAME *</label><br>
-            <input required type="text" placeholder="Enter your full name" class="longInput">
+            <input required type="text" id="inputName" placeholder="Enter your full name" class="longInput input-control">
         </div> 
 
         <br>
 
         <div class="">
             <label>EMAIL ADRESS *</label><br>
-            <input required type="email" placeholder="yourname@company.com" class="longInput">
+            <input required type="email" placeholder="yourname@company.com" id="inputEmail" class="longInput input-control">
         </div> 
         
       </div>
@@ -217,14 +214,14 @@
       <div class="container55">
          <div class="inputOne">
            <label>PHONE NUMBER *</label><br>
-             <input required type="tel" placeholder="0 (000) 000 -0000" class="shortInput">
+             <input required type="tel" placeholder="0 (000) 000 -0000" id="inputPhone" class="shortInput input-control">
       
           </div>  
           <div class="inputTwo">
         
 
            <label>preferred language *</label><br>
-            <select class="dropdown">
+            <select class="dropdown" id="inputDropdown">
                 <option value="Select">Select</option>
                 <option value="Select">English</option>
                 <option value="Select">Francais</option>
@@ -235,7 +232,7 @@
           </div>
        </div>
 
-       <input onclick="myFunction()" class="formButton" value="SUBMIT" type="submit">
+       <button class="formButton" value="SUBMIT" type="submit">submit</button>
       
     </form>
 
@@ -292,18 +289,8 @@
 
   </footer>
 
-  <script>
-    function myFunction() {
-      alert("Form submission is not yet implemented!");
+  
 
-    }
-
-    function comingSoon() {
-      alert("COMING SOON !");
-
-    }
-
-    </script>
 
  </body>
 </html>

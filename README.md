@@ -6,7 +6,7 @@ This is a web page made used with pure HTML and CSS
 
 - The navbar is leading you to the different sections of the page
 - The download catalog has as a temporary alert : "COMING SOON!"
-- In mobile version, navbar transform into a hamburger style menu. Click the icon to see your navigation options appearing
+- In mobile version, navbar transform into a hamburger style menu: Click the icon to see your navigation options appearing
 - The form validation on the client side has been modified using Javascript
 
 ## Mobile Version

@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sublight Engines - Elevator Cab Controls</title>
     <meta name="description" content="Sublight Engines">
+    <!-- SEO KEYWORDS -->
+    <meta name="description" content="Elevator cab controls you can rely on. Our mission? Take you to the top." />
+    <meta name="keywords" content="elevator, cab, cab controls, safety, secureboards, door, mechanics, hoistway, hatch, catalog">
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css\main.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
@@ -73,8 +76,6 @@
   </div>  
 
 </section>
-
-<!-- SECOND SLIDER ------------------------ -->
 
 <section id="slideSection2" class="slideSection2 wrapper">
 
@@ -144,52 +145,57 @@
         <center><img alt="Separator" class="separator" src="/images/separatorBlack.svg"></center>
        
     </div>
-    
-    <div class="container-4">
-        <div class="box-41 card">
-            <img alt="Safety" src="/images/safety.png">
-            <h1>SAFETY</h1>
-            <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
 
-        </div>
-
-        <div class="box-42 card">
-            <img alt="Cab" src="/images/cab.png">
-            <h1>CAB</h1>
+    <main class="cards">
+        <article class="card">
+          <img src="/images/safety.png" alt="Sample photo">
+          <div class="text">
+            <h3>SAFETY</h3>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
             
-        </div>
-
-        <div class="box-43 card">
-            <img alt="Door" src="/images/door.png">
-            <h1>DOOR</h1>
+          </div>
+        </article>
+        <article class="card">
+          <img src="/images/cab.png" alt="Sample photo">
+          <div class="text">
+            <h3>CAB</h3>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
             
-        </div>
-
-        <div class="box-44 card">
-            <img alt="Mechanics" src="/images/mechanics.png">
-            <h1>MECHANICS</h1>
-            <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
-
-            
-        </div>
-      
-        <div class="box-45 card">
-            <img alt="Hoistway" src="/images/HOISTWAY.png">
-            <h1>HOISTWAY/HATCH</h1>
+          </div>
+        </article>
+        <article class="card">
+          <img src="/images/door.png" alt="Sample photo">
+          <div class="text">
+            <h3>DOOR</h3>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
             
-        </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="/images/mechanics.png" alt="Sample photo">
+          <div class="text">
+            <h3>MECHANICS</h3>
+            <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
+            
+          </div>
+        </article>
+        <article class="card">
+          <img src="/images/HOISTWAY.png" alt="Sample photo">
+          <div class="text">
+            <h3>HOISTWAY/HATCH</h3>
+            <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
+            
+          </div>
+        </article>
         
+      </main>
 
-    </div>
-
+    
+    
+    <center><button onclick="comingSoon()" class="downloadButton" type="button">Download our catalog</button></center>
     <div class="downloadBackground"></div>
-    </div>
-    
-      <button onclick="comingSoon()" class="downloadButton" type="button">Download our catalog</button>
-    
+</div>
+
 </section>
 
 <!-- FIFTH SLIDER ------------------------ -->
@@ -204,10 +210,10 @@
         
     </div>
 
-    <form id="myForm" class="container5" action="/">
+    <form onsubmit="return false" id="myForm" class="container5" action="/">
       <div class="nameInput">
 
-        <div class="input-control">
+        <div class="input-control inputElement">
             <label>NAME *</label><br>
             <input type="text" id="inputName" placeholder="Enter your full name" class="longInput">
             <div class="error"></div>
@@ -215,7 +221,7 @@
 
         <br>
 
-        <div class="input-control">
+        <div class="input-control inputElement">
             <label>EMAIL ADRESS *</label><br>
             <input type="email" placeholder="yourname@company.com" id="inputEmail" class="longInput input-control">
             <div class="error"></div>
@@ -233,7 +239,7 @@
           </div>  
           
            <div class="inputTwo input-control">
-             <label>preferred language *</label><br>
+             <label class="dropdownLabel">PREFERRED LANGUAGE *</label><br>
               <select class="dropdown" id="inputDropdown">
                 <option value="Select">Select</option>
                 <option value="English">English</option>
@@ -245,11 +251,11 @@
               <div class="error"></div>
 
             </div>
-            
+           
         </div>
-       
-
-       <button onclick="sendMail()" id="emailButton" class="formButton" value="SUBMIT" type="submit">submit</button>
+        <button onclick="sendMail()" id="emailButton" class="formButton" value="SUBMIT" type="submit">submit</button> 
+        
+       <div class="formSpace"></div>
       
     </form>
 
@@ -259,27 +265,29 @@
 
 <section id="slideSection6" class="slideSection6">
 
-        <div class="row6">
+    <div class="row6">
+        
+        <div class="column-61">
             
-            <div class="column-61">
-                
-                <h1>With your trust since 1943.</h1>
-                
-            </div>
-            
-            <div class="column-62">
-                <img alt="Signature" src="/images/logoSignature/signature.svg" alt="Signature">
-                
-            </div>
+            <h1>With your trust since 1943.</h1>
             
         </div>
+        
+        <div class="column-62">
+            <img alt="Signature" src="/images/logoSignature/signature.svg" alt="Signature">
+            
+        </div>
+        
+    </div>
 
 </section>
 
 <!-- FOOTER ------------------------ -->
 
 <footer id="footer" class="footer">
+    
 
+   <div class="footerContainer">
     <div class="addressLeft">
     <label>UNITED STATES office</label>
       <address class="addressLeftFont">
@@ -291,9 +299,9 @@
       </address>
     </div>
 
-    <div class="addressRight">
+    <div class="addressRight1">
         <label>Canada’s office</label>
-          <address class="addressRightFont">
+          <address class="addressRightFont1">
             
             23895 BRADSHAW BOULEVARD<br />
             KINGSTON, ONT, CA<br />
@@ -301,13 +309,13 @@
             
           </address>
         </div>
-
+    </div>
       <p class="rights">All rights reserved to CodeBoxx Solutions ©, 2022.</p>
 
   </footer>
-
-  
-
-
- </body>
-</html>
+  <div class="centerButton">
+ <button onclick="comingSoon()" class="downloadButton2" type="button">Download our catalog</button>
+ <div class="space"></div>
+</div>
+  </body>
+  </html> 

@@ -6,11 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sublight Engines - Elevator Cab Controls</title>
-    <meta name="description" content="">
+    <meta name="description" content="Sublight Engines">
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css\main.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <script defer src="/js/main.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("pS3jd3eOlPKk-CmwM");
+        })();
+    </script>
 
 </head>
 <body>    
@@ -19,7 +27,7 @@
 
 
     <!-- NAV BAR  -->
-<a href="#" class="logo"><img src="/images/logo_sublight.svg"></a>  
+<a href="#" class="logo"><img alt="Sublight" src="/images/logo_sublight.svg" alt="Logo"></a>  
 
 <header>
     
@@ -60,7 +68,7 @@
         TAKE YOU TO THE TOP 
     </div>
 
-    <center><a href="#slideSection2"><img class="elevatorButton" src="/images/elevatorbutton.svg"></a></center>
+    <center><a href="#slideSection2"><img alt="Button" class="elevatorButton" src="/images/elevatorbutton.svg"></a></center>
     
   </div>  
 
@@ -74,26 +82,26 @@
         <div class="oneStopFor">one-stop for your elevator needs</div>
         <div class="oneStepCloser">one step closer to success</div>
         <br>
-        <center><img class="separator" src="/images/separator.svg"></center>
+        <center><img alt="Separator" class="separator" src="/images/separator.svg"></center>
        
     </div>
 
     <div class="container-1">
         <div class="box-1">
-            <img src="/images/iconDesgin/design.svg">
+            <img alt="Design" src="/images/iconDesgin/design.svg">
             <p>WE DESIGN</p>
 
         </div>
 
         <div class="box-2">
-            <img src="/images/iconBuild/build.svg">
+            <img alt="Build" src="/images/iconBuild/build.svg">
             <p>WE BUILD</p>
 
             
         </div>
 
         <div class="box-3">
-            <img src="/images/iconMaintenance/maintenance.svg">
+            <img alt="Maintain" src="/images/iconMaintenance/maintenance.svg">
             <p>WE MAINTAIN</p>
             
         </div>
@@ -116,7 +124,7 @@
         </div>
         
         <div class="column-2">
-            <img src="/images/Rectangle3.png">
+            <img alt="Rectangle" src="/images/Rectangle3.png">
             
         </div>
         
@@ -133,34 +141,34 @@
         <div class="oneStepCloser">all our products are made <br>
                                    with heart and soul</div>
         <br>
-        <center><img class="separator" src="/images/separatorBlack.svg"></center>
+        <center><img alt="Separator" class="separator" src="/images/separatorBlack.svg"></center>
        
     </div>
     
     <div class="container-4">
         <div class="box-41 card">
-            <img src="/images/safety.png">
+            <img alt="Safety" src="/images/safety.png">
             <h1>SAFETY</h1>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
 
         </div>
 
         <div class="box-42 card">
-            <img src="/images/cab.png">
+            <img alt="Cab" src="/images/cab.png">
             <h1>CAB</h1>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
             
         </div>
 
         <div class="box-43 card">
-            <img src="/images/door.png">
+            <img alt="Door" src="/images/door.png">
             <h1>DOOR</h1>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
             
         </div>
 
         <div class="box-44 card">
-            <img src="/images/mechanics.png">
+            <img alt="Mechanics" src="/images/mechanics.png">
             <h1>MECHANICS</h1>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
 
@@ -168,7 +176,7 @@
         </div>
       
         <div class="box-45 card">
-            <img src="/images/HOISTWAY.png">
+            <img alt="Hoistway" src="/images/HOISTWAY.png">
             <h1>HOISTWAY/HATCH</h1>
             <p>Lorem ipsum dolor sit <br> amet, consectetur</p>
             
@@ -176,6 +184,7 @@
         
 
     </div>
+
     <div class="downloadBackground"></div>
     </div>
     
@@ -191,48 +200,56 @@
         <div class="stayInTouch">stay in touch with our customer service</div>
         <div class="feelFreeTo">feel free to contact us <br> for any questions</div>
         <br>
-        <center><img class="separator" src="/images/separatorBlack.svg"></center>
+        <center><img alt="Separator" class="separator" src="/images/separatorBlack.svg"></center>
         
     </div>
 
     <form id="myForm" class="container5" action="/">
       <div class="nameInput">
-        <div class="">
+
+        <div class="input-control">
             <label>NAME *</label><br>
-            <input required type="text" id="inputName" placeholder="Enter your full name" class="longInput input-control">
+            <input type="text" id="inputName" placeholder="Enter your full name" class="longInput">
+            <div class="error"></div>
         </div> 
 
         <br>
 
-        <div class="">
+        <div class="input-control">
             <label>EMAIL ADRESS *</label><br>
-            <input required type="email" placeholder="yourname@company.com" id="inputEmail" class="longInput input-control">
+            <input type="email" placeholder="yourname@company.com" id="inputEmail" class="longInput input-control">
+            <div class="error"></div>
+            
         </div> 
         
       </div>
       <br>
       <div class="container55">
-         <div class="inputOne">
+         <div class="inputOne input-control">
            <label>PHONE NUMBER *</label><br>
-             <input required type="tel" placeholder="0 (000) 000 -0000" id="inputPhone" class="shortInput input-control">
+             <input type="tel" placeholder="0 (000) 000 -0000" id="inputPhone" class="shortInput input-control">
+             <div class="error"></div>
       
           </div>  
-          <div class="inputTwo">
-        
-
-           <label>preferred language *</label><br>
-            <select class="dropdown" id="inputDropdown">
+          
+           <div class="inputTwo input-control">
+             <label>preferred language *</label><br>
+              <select class="dropdown" id="inputDropdown">
                 <option value="Select">Select</option>
-                <option value="Select">English</option>
-                <option value="Select">Francais</option>
-                <option value="Select">Español</option>
+                <option value="English">English</option>
+                <option value="Francais">Francais</option>
+                <option value="Espanol">Español</option>
 
       
-            </select> 
-          </div>
-       </div>
+              </select> 
+              <div class="error"></div>
 
-       <button class="formButton" value="SUBMIT" type="submit">submit</button>
+            </div>
+            
+        </div>
+       
+
+       <button onclick="sendMail()" id="emailButton" class="formButton" value="SUBMIT" type="submit">submit</button>
       
     </form>
 
@@ -251,7 +268,7 @@
             </div>
             
             <div class="column-62">
-                <img src="/images/logoSignature/signature.svg">
+                <img alt="Signature" src="/images/logoSignature/signature.svg" alt="Signature">
                 
             </div>
             

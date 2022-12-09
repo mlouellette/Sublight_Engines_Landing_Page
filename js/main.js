@@ -7,7 +7,7 @@ function comingSoon() {
     alert("COMING SOON !");
 
   }
-  
+
 
 // Hamburger menu ------------------
   
@@ -31,6 +31,7 @@ const username = document.getElementById('inputName');
 const email = document.getElementById('inputEmail');
 const phone = document.getElementById('inputPhone');
 const dropdown = document.getElementById("inputDropdown");
+console.log(dropdown)
 
 form.addEventListener('submit', e => {
   e.preventDefault();
@@ -65,7 +66,7 @@ const validateInputs = () => {
   const usernameValue = username.value.trim();
   const emailValue = email.value.trim();
   const phoneValue = phone.value.trim();
-  const dropDownValue = dropdown.value.trim();
+  
   
 
   if(usernameValue === '') {
@@ -90,17 +91,37 @@ const validateInputs = () => {
       setSuccess(phone);
   }
 
-  if(dropDownValue === 'Select') {
+  if(dropdown.value === 'Select') {
     setError(dropdown, 'Language is required');
 } else {
     setSuccess(dropdown);
 }
-
-
-
   
 
 };
 
+// EMAILJS -----------------------------------------
+
+function sendMail() {
+  var params = {
+    inputName: document.getElementById('inputName').value,
+    inputEmail: document.getElementById('inputEmail').value,
+    inputPhone: document.getElementById('inputPhone').value,
+    inputDropdown: document.getElementById('inputDropdown').value,
+
+  };
 
 
+const serviceID = "service_d4bic7s"
+const templateID = "template_nzphdgn"
+
+emailjs.send(serviceID, templateID, params).then((res) => {
+    document.getElementById("inputName").value = "";
+    document.getElementById("inputEmail").value = "";
+    document.getElementById("inputPhone").value = "";
+    document.getElementById("inputDropdown").value = "";
+    console.log(res);
+    alert("your message sent successfully!");
+  }).catch((err) => console.log(err));
+  
+};

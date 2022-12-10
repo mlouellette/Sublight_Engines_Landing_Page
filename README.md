@@ -23,6 +23,6 @@ Website is deployed on the following link :
 
 ## Presentation video :
 
-- HTML and CSS Deep Dive video: https://www.youtube.com/watch?v=71x2fjVyITs
+- HTML and CSS Deep Dive : https://www.youtube.com/watch?v=71x2fjVyITs
 
 - Javascript, Responsiveness and SEO : https://www.youtube.com/watch?v=h0hvKS9HW_M

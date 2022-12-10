@@ -25,4 +25,4 @@ Website is deployed on the following link :
 
 - HTML and CSS Deep Dive video: https://www.youtube.com/watch?v=71x2fjVyITs
 
-- Javascript, Responsiveness and SEO :
+- Javascript, Responsiveness and SEO : https://www.youtube.com/watch?v=h0hvKS9HW_M

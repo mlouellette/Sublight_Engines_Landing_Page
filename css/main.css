@@ -796,7 +796,7 @@ select {
 /* JAVASCRIPT FORM END */
 
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Mobile devices (1220px and down) */
 @media(max-width: 1220px) {
 
     /* HAMBURGER NAVBAR ---------------------------------- */
